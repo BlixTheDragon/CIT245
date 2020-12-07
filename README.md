@@ -23,3 +23,13 @@ Project taught about binary search trees, as well as in-order walk, insertion, a
 The code creates a binary search tree of ten electric vehicle models, then c-outs the list in alphabetical order using the in-order tree walk algorithm. The code then asks the user for info on a node to insert, then inserts one of its own. The code then c-outs the updated tree with twelve cars. The code then asks for a node to be deleted, then searches for and deletes the node, preserving potential children.
 
 -+-=#=-+-
+
+## Final
+Project was an implementation of a priority queue.
+
+The code creates a vector that will serve as the vessel for holding the queue, then asks the user for instructions: Add nodes, remove nodes, pop-off nodes, print the queue, and exit the program.
+
+When adding nodes, the code sorts the list by priority, subsorting first-in-first-out in the case of equal priority. The list is sorted every time a node is added for simplicity. 
+There are two options for removing nodes: Resolving or Removing. Resolving removes the first node on user confirmation, removing nodes searches for a user-specified node and deletes it if it finds one with the same item name.
+
+-+-=#=-+-
